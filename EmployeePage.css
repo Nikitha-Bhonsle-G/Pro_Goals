@@ -1,0 +1,111 @@
+.EmpHeader{
+    height: 100px;
+    background-color: rgba(16, 2, 39, 0.493);
+    
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: Goudy Old Style;
+    font-size: 45px;
+    margin-left:8px;
+    margin-top: 8px;
+    text-shadow: 2px 2px 8px rgb(255, 255, 255);
+}
+.left{
+    float: left;
+}
+.right{
+    float:right;
+}
+#Emplogout{
+    border: 0;
+    height: 50px;
+    width: 160px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50px;
+    font-family: MV Boli;
+    font-size: 20px;
+    color: teal;
+    cursor: pointer;
+}
+#Emplogout:hover{
+    background-color: rgba(0, 0, 0, 0.616);
+    color:rgb(255, 255, 255);
+}
+.add_goals{
+    width: 800px;
+    background-color:rgba(255, 255, 255, 0.466);
+    height: 500px;
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-left: 25%;
+}
+.add_goals:hover{
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.719);
+}
+
+.add_week_goal{
+    font-size: 35px;
+    text-align: center;
+    font-family: Goudy Old Style;
+    font-weight: bold;
+    color: rgb(7, 7, 34);
+    padding-top: 10px;
+}
+
+.objectiveform{
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+}
+.objectiveform input{
+    height: 50px;
+    width: 40%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.466);
+    border: 0;
+    font-size: 20px;
+
+}
+.textarea1 textarea{
+    background-color: rgba(0, 0, 0, 0.466);
+    height: 100px;
+    width: 70%;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.textarea1 textarea:hover{
+    background-color: rgba(255, 255, 255, 0.377);
+}
+
+.startdate1, .enddate1,.textarea1{
+    padding:5px;
+    text-align: center;
+    font-family:Goudy Old Style ;
+    
+}
+.startdate1 input:hover, .enddate1 input:hover,.textarea1 input:hover{
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+
+#btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.219);
+}
+#btn:hover{
+    background-color: rgba(0, 0, 0, 0.767);
+    color:white;
+    box-shadow: 8px 8px 8px rgb(248, 248, 248);
+}
+
+
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
