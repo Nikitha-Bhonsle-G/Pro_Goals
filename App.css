@@ -1,0 +1,209 @@
+body{
+  background-color: rgba(8, 8, 39);
+}
+.header{
+  height: 100px;
+  width: 100%;
+  background-color:rgba(8, 8, 39, 0.849);
+}
+#logo{
+  margin: 20px;
+}
+.left{
+  float: left;
+  width:50%;
+  height: inherit;
+  background-color:transparent;
+  color: aliceblue;
+  font-family: Eras ITC;
+  font-size: 40px;
+  /* text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.616); */
+}
+.left img{
+  height: 50px;
+  width: 50px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.right{
+  padding-top: 15px;
+  align-items: center;
+  text-align: right;
+  margin-right: 50px;
+}
+.right #Admin{
+  border: 0;
+  height: 50px;
+  width: 150px;
+  padding-right: 2px;
+  background-color: transparent;
+  color: aliceblue;
+  text-decoration: underline;
+  font-size: 20px;
+  cursor: pointer;
+}
+.right #Employee{
+  border: 0;
+  height: 50px;
+  width: 150px;
+  padding-right: 2px;
+  background-color: transparent;
+  color: aliceblue;
+  text-decoration: underline;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.homepagevideo video{
+  position: absolute;
+  width: 70%;
+  height: 80%;
+  padding-top:0;
+  object-fit: fill;
+  z-index: -1;
+}
+
+.homebody{
+  margin-top: 50px;
+  margin-right: 60px;
+  height: 500px;
+  width: 350px;
+  background: radial-gradient(ellipse at top, #0d1753, transparent),
+  radial-gradient(ellipse at bottom, #4d65b4, transparent);
+  float: right;
+  border-radius: 2px;
+  box-shadow:5px 5px 5px rgb(0, 0, 0);
+  align-items: center;
+}
+.homebody p{
+  margin-top: 30%;
+  color: aliceblue;
+  font-size: 50px;
+  text-align: center;
+  font-family:Ink Free ;
+}
+#arrow{
+  margin-left: 40%;
+  height: 100px;
+  width: 100px;
+}
+.footer{
+  height: 41px;
+  width: inherit;
+  background-color:rgba(8, 8, 39, 0.849);
+  position: relative;
+  left: 0;
+  top:577px;
+  color: rgba(192, 177, 156, 0.795);
+  font-size: 15px;
+  margin-left: 35%;
+  margin-top: 2px;
+}
+
+
+#bg-modal{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.95;
+  position: absolute;
+  top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.modal-content{
+  width:400px;
+  height: 300px;
+  background-color: rgb(241, 239, 239);
+  border-radius: 4px;
+  text-align: center;
+  padding:20px;
+  position: relative;
+}
+
+.close{
+  position: absolute;
+  top:0;
+  right: 14px;
+  font-size: 42px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+.close:hover{
+  color: red;
+}
+
+
+.AdminID label{
+  text-align: center;
+
+}
+.AdminID input{
+  height: 40px;
+  width: 250px;
+  border:0;
+  color:black;
+  background-color: rgba(0, 0, 0, 0.192);
+  font-size: 20px;
+}
+.AdminID button{
+  height: 50px;
+  width: 150px;
+  border: 0;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+}
+.AdminID button:hover{
+  background-color: green;
+}
+
+#bg-modal1{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.95;
+  position: absolute;
+  top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.modal-content1{
+  width:400px;
+  height: 300px;
+  background-color: rgb(241, 239, 239);
+  border-radius: 4px;
+  text-align: center;
+  padding:20px;
+  position: relative;
+}
+.AdminID1 label{
+  text-align: center;
+
+}
+.AdminID1 input{
+  height: 40px;
+  width: 250px;
+  border:0;
+  color:black;
+  background-color: rgba(0, 0, 0, 0.192);
+  font-size: 20px;
+}
+.AdminID1 button{
+  height: 50px;
+  width: 150px;
+  border: 0;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+}
+.AdminID1 button:hover{
+  background-color: green;
+}
